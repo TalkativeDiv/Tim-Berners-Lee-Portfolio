@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center flex-column gap-4"
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-100"
+      aria-label="First navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i
+            class="fa-solid fa-globe"
+            onmouseover="this.classList.add('fa-spin')"
+            onmouseleave="this.classList.remove('fa-spin')"
+          ></i>
+          Tim Berners-Lee
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a
+                class="nav-link link-light"
+                aria-current="page"
+                href="index.html#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#videos"
+                >Videos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#work">Work </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#writing"
+                >Writing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#contact"
+                >Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/connect.html">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <iframe
+      src="https://www.google.com/maps/d/embed?mid=19oJsdiQLpL9kQoSfq5ncKFB-CYTrTleG&ehbc=2E312F"
+      width="1920"
+      height="480"
+    ></iframe>
+    <div id="disqus_thread" style="width: 75%"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+      var disqus_config = function () {
+        this.page.url = window.location; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "/connect.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://abhirath.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+    <script src="src/js/modernizr.min.js"></script>
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/861898755b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
