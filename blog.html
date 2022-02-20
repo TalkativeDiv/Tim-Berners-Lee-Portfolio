@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center flex-column gap-4"
+  >
+	<!-- nav-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-100"
+      aria-label="First navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i
+            class="fa-solid fa-globe"
+            onmouseover="this.classList.add('fa-spin')"
+            onmouseleave="this.classList.remove('fa-spin')"
+          ></i>
+          Tim Berners-Lee
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a
+                class="nav-link link-light"
+                aria-current="page"
+                href="index.html#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#videos"
+                >Videos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#work">Work </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#writing"
+                >Writing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#contact"
+                >Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/connect.html">Connect</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Posts -->
+    <div class="d-flex justify-content-center gap-4">
+      <!--
+			*Card 1*
+		  ! Tim can go 5 years without blogging!-->
+
+      <div
+        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+      >
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success">Blog</strong>
+          <h4>
+            <strong class="d-inline-block mb-2">On EME In HTML 5</strong>
+          </h4>
+
+          <h3 class="mb-0"></h3>
+          <div class="mb-1 text-muted">28 February 2017</div>
+          <p class="mb-auto">
+            The question which has been debated around the net is whether W3C
+            <br />
+            should endorse the Encrypted Media Extensions (EME) standard which
+            <br />
+            allows a web page to include encrypted content, by connecting an
+            <br />
+            existing underlying Digital Rights Management (DRM) system in the
+            <br />
+            underlying platform. Some people have protested “no”, but in fact I
+            <br />
+            decided the actual logical […]
+          </p>
+          <a
+            href="https://www.w3.org/blog/2017/02/on-eme-in-html5/"
+            class="stretched-link link-dark"
+            >Continue reading</a
+          >
+        </div>
+      </div>
+     
+        <!-- Card 2 -->
+        <div
+          class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+        >
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Blog</strong>
+            <h4>
+              <strong class="d-inline-block mb-2">On Encrypted Video and the Open Web</strong>
+            </h4>
+
+            <h3 class="mb-0"></h3>
+            <div class="mb-1 text-muted">28 February 2017</div>
+            <p class="mb-auto">
+              There has been a lot of response to the announcement that W3C
+              <br />
+              considers content protection for video as in-scope for discussion
+              <br />
+              in the HTML Working Group. In this post I can touch on some of the
+              <br />
+              arguments. We hear the outburst of criticism (and some support)
+              <br />
+              for W3C’s recent rechartering of the HTML Working Group […] <br />
+            </p>
+            <a
+              href="https://www.w3.org/blog/2013/10/on-encrypted-video-and-the-open-web/"
+              class="stretched-link link-dark"
+              >Continue reading</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+		<!-- Moovies -->
+<div class="accordion w-50" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Harry Potter and the Sorcerer's Stone (Harry Potter and the Philosophers's Stone) (2001) &nbsp; <span class="text-warning"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlN5yVLJnpmTyOp33mZ7PRtTs9KqiKmq2pOczXX0Qu_E4SrTY" alt="HaRrY PoTtAh" style="width: 8rem;"><br><br>
+				The first (and the most crucial) movie in the Harry Potter Franchise is certainly one it's best- it happened to be my first exposure to the world of Harry Potter and the lifelong obsession that was about to follow. 
+
+				The first shot of Hogwarts- immediately mesmerizing with it's tall towers and windows glimmering with candle-light as the bewitching soundtrack by John Williams plays- is a testament to how well the film is made. Minor details like the gorgeous mountains and lakes that surround Hogwarts lurk in the background or at the edges of the frames and make the whole thing dreamier, and magical. It's all so enchanting that one doesn't nitpick the special effects (which while being perfectly good for that time, seem a bit funny today).
+				The credit for this certainly goes to JK Rowling more than any one person because it's such a well realised world- it's the details of her imagination, after all, that the movie brings on the screen. The story is- as we know- one of the most interesting ones ever told in our lifetimes.
+				The casting certainly helps- the actors have been chosen less to accurately portray the physical features of their respective characters than to innately exude particular energies- Alan Rickman as Snape looks evil before he utters a word; Emma Watson as Hermoine looks honest and sincere; McGonagall looks like the phenomenal character that she is- and at the center of it all is Daniel Radcliffe- who makes the part his own- no one else could have been Harry Potter in a million years.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				Home Alone (1990)  &nbsp; <span class="text-warning"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+				<img src="https://flxt.tmsimg.com/assets/p12872_p_v8_ba.jpg" alt="Oh No We LeFt OuR ChIlD tHaT wE dEfInItLy LoOkEd FoR aNd CaRe AbOuT" style="width: 8rem;"><br><br>
+				What can I say about this film that hasn’t been said already. One of the most renowned Christmas movies of all-time, “Home Alone” is the quintessential film that blends a great deal of family fun with an engaging story, memorable characters, and touching moments. The best parts have always been the booby trap sequences, and every time we went out on trips with my portable DVD player, I always remembered skipping ahead to this scene. However, the more I went back and analyzed what was in between, I was able to understand the true heart this movie had.
+
+				Initially, Kevin (Macaulay Culkin) wished that his family would disappear after the conflict he had with his older brother Buzz (Devin Ratray). After being left behind and all alone, he starts to feel signs of regret. Eventually, he comes to accept that deep down, he really loves his family and will do everything he can to set the record straight not just for himself, but for them as well. He even goes as far as to taking matters under his own hands by grocery shopping, overcoming his greatest fears, and protecting the house from the hilarious burglars with his creative traps (especially the famous spider scene, which ALWAYS sticks out whenever we talk about this film).
+				
+				I can’t believe that after all the times we watched this movie over the years, it’s now been 30 years since it first came out. I’ve just finished watching it again and it’s just as memorable as how it was when I experienced it as a kid for the first time. This is a movie that HAS to be seen if you’re in the mood for family fun, and if you’ve never had the chance, then go check it out! You won’t regret it.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        The Lion King (Live Action)  &nbsp; <span class="text-warning"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+				<img src="https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg" alt="SiMbA" style="width: 8rem;"><br><br>
+				Seriously, this an absolute masterpiece!  Perhaps one of my personal all-time stories.  The part where Musfasa dies is gut-wrenching for sure and even more real in than the original. That said, if you are a fan of original The Lion King...you will want to add this to your collection.
+
+				I am amazed at the few critics (and they are few)...as this is nothing short of stunning.  The artistry and the craftsmanship in this recreation is nothing short of jaw-dropping. 
+				
+				Most importantly, the integrity of the original was not only maintained, but followed respectfully.
+				
+				I love the attention to every single detail of the: animals and their behavior and grasslands, plants, bugs!!!  Even the grub eating shrew moved so real. It's crazy!
+				
+				I could go on and on, but this is nothing but a masterpiece!!!  Thank you for recreating one of Disney's classics!  The Lion King (2019) met and exceeded all expectations!
+				
+      </div>
+    </div>
+  </div>
+</div>
+<!--Travel-->
+<div class="d-flex gap-4">
+	<div class="card" style="width: 18rem;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg" class="card-img-top" alt="Times Square (NYC)">
+		<div class="card-body">
+			<h5 class="card-title">Times Square, NYC</h5>
+			<p class="card-text">Times Square Is <em><strong>BEAUTIFUL</strong></em> and you should definitly visit it once in your life!</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="https://cdn.aarp.net/content/dam/aarp/travel/destination-guides/2018/03/1140-trv-dst-dc-main.imgcache.rev.web.700.399.jpg" class="card-img-top" alt="DC">
+		<div class="card-body">
+			<h5 class="card-title">Washington DC</h5>
+			<p class="card-text">Washington DC Is <em><strong>SPLENDID</strong></em> and you should definitly visit it once in your life!</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="https://traveler.marriott.com/wp-content/uploads/2017/10/GI_532547393_OC_Boardwalk.jpg" class="card-img-top" alt="Ocean City">
+		<div class="card-body">
+			<h5 class="card-title">Ocean City, Maryland</h5>
+			<p class="card-text">Ocean City Is <em><strong>MAGNIFICENT</strong></em> and you should definitly visit it once in your life!</p>
+		</div>
+	</div>
+	<div class="card" style="width: 18rem;">
+		<img src="data:image/jpeg;base64,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	" class="card-img-top" alt="Ocean City">
+		<div class="card-body">
+			<h5 class="card-title">San Francisco, California</h5>
+			<p class="card-text">San Francisco Is <em><strong>GORGEOUS</strong></em> and you should definitly visit it once in your life!</p>
+		</div>
+	</div>
+</div>
+<!-- Comments-->
+    <div id="disqus_thread" style="width: 75%"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+      var disqus_config = function () {
+        this.page.url = window.location; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "/connect.html"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://abhirath.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+		<script
+		src="https://kit.fontawesome.com/861898755b.js"
+		crossorigin="anonymous"
+	></script>
+    <script src="src/js/modernizr.min.js"></script>
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
