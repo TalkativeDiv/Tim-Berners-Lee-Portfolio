@@ -11,78 +11,177 @@
   <body
     class="d-flex justify-content-center align-items-center flex-column gap-4"
   >
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-100"
-      aria-label="First navbar example"
+  <nav
+  class="navbar navbar-expand-lg navbar-dark sticky-top w-100"
+  style="background: #343a40"
+  aria-label="First navbar example"
+>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"
+      ><i
+        class="fa-solid fa-globe"
+        onmouseover="this.classList.add('fa-spin')"
+        onmouseleave="this.classList.remove('fa-spin')"
+      ></i>
+      Tim Berners-Lee
+    </a>
+    <button
+      class="navbar-toggler collapsed"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarsExample01"
+      aria-controls="navbarsExample01"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
     >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><i
-            class="fa-solid fa-globe"
-            onmouseover="this.classList.add('fa-spin')"
-            onmouseleave="this.classList.remove('fa-spin')"
-          ></i>
-          Tim Berners-Lee
-        </a>
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample01"
-          aria-controls="navbarsExample01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="navbar-collapse collapse" id="navbarsExample01">
-          <ul class="navbar-nav me-auto mb-2">
-            <li class="nav-item">
-              <a
-                class="nav-link link-light"
-                aria-current="page"
-                href="index.html#hero"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#videos"
-                >Videos
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#work">Work </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#writing"
-                >Writing
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#contact"
-                >Contact
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="/connect.html">Connect</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="/blog.html">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="navbar-collapse collapse" id="navbarsExample01">
+      <ul class="navbar-nav me-auto mb-2">
+        <li class="nav-item">
+          <a
+            class="nav-link link-light"
+            aria-current="page"
+            href="index.html#hero"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="index.html#videos"
+            >Videos
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="index.html#work">Work </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="index.html#writing"
+            >Writing
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="index.html#contact"
+            >Contact
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="/connect.html">Connect</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="/blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="/news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="/books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-light" href="/sports.html">Sports</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <iframe
       src="https://www.google.com/maps/d/embed?mid=19oJsdiQLpL9kQoSfq5ncKFB-CYTrTleG&ehbc=2E312F"
       width="1920"
       height="480"
     ></iframe>
     <div id="disqus_thread" style="width: 75%"></div>
+    <div class="container">
+      <footer class="row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+          >
+            <img
+              src="https://github.com/TalkativeDiv/TalkativeFoods/raw/master/images/logo.png"
+              alt="Logo"
+              class="w-25"
+            />
+            <h2>&nbsp;TalkativeDiv</h2>
+          </a>
+        </div>
+
+        <div class="col"></div>
+
+        <div class="col">
+          <h5>Social</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a
+                href="https://github.com/TalkativeDiv"
+                class="nav-link p-0 text-muted"
+                >Github</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="https://abhirath.net/" class="nav-link p-0 text-muted"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="https://talkativeblog.hashnode.dev/"
+                class="nav-link p-0 text-muted"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="https://app.daily.dev/TalkativeDiv"
+                class="nav-link p-0 text-muted"
+                >DailyDev</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a
+                href="mailto:hello@abhirath.net"
+                class="nav-link p-0 text-muted"
+                >Email</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>Home</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="index.html#about" class="nav-link p-0 text-muted">
+                About</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="index.html#videos" class="nav-link p-0 text-muted">
+                Videos</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="index.html#work" class="nav-link p-0 text-muted">
+                Work</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="index.html#writing" class="nav-link p-0 text-muted">
+                Writing
+              </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="index.html#contact" class="nav-link p-0 text-muted"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
     <script>
       /**
        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

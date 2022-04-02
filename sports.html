@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Berners-Lee</title>
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top w-100"
+      style="background: #343a40"
+      aria-label="First navbar example"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i
+            class="fa-solid fa-globe"
+            onmouseover="this.classList.add('fa-spin')"
+            onmouseleave="this.classList.remove('fa-spin')"
+          ></i>
+          Tim Berners-Lee
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a
+                class="nav-link link-light"
+                aria-current="page"
+                href="index.html#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#videos"
+                >Videos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#work">Work </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#writing"
+                >Writing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="index.html#contact"
+                >Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/connect.html">Connect</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/books.html">Books</a>
+            </li>
+						<li class="nav-item">
+              <a class="nav-link link-light" href="/sports.html">Sports</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="m-4">
+      <h2>Sports</h2>
+      <hr />
+      <div class="bg-primary text-light p-4 rounded-3 mb-4">
+        “Go Big Or go home” - Unknown
+      </div>
+      <div style="display: flex; gap: 2rem">
+        <div class="card" style="width: 18rem">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top"
+            alt="Tennis"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tennis</h5>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#tennis"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://activeforlife.com/content/uploads/2018/07/soccer-ball-2121x1414.jpg"
+            class="card-img-top"
+            alt="Soccer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Soccer</h5>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#soccer"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://media.istockphoto.com/photos/leather-cricket-ball-resting-on-a-cricket-bat-placed-on-green-grass-picture-id1256618106?k=20&m=1256618106&s=170667a&w=0&h=yi5XDWO10lnSLwjG_r2CbAYwNCGt7D1Pf3XArYVHKKA="
+            class="card-img-top"
+            alt="Soccer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cricket</h5>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#Cricket"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fiG7mazKTfIruTehelV_rm79xY6bSXVR8Q&usqp=CAU"
+            class="card-img-top"
+            alt="Basketball"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Basketball</h5>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#basketball"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="tennis"
+      tabindex="-1"
+      aria-labelledby="Harry Potter And the Sorcerer's stone"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HP1Label">
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </h5>
+          </div>
+          <div class="modal-body">
+            <h2>Tennis</h2>
+            <img
+              style="margin: auto"
+              src="data:image/jpeg;base64,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"
+              alt="Tennis"
+            /><br /><br />
+            &nbsp;Tennis is a racket sport that can be played individually
+            against a single opponent (singles) or between two teams of two
+            players each (doubles). Each player uses a tennis racket that is
+            strung with cord to strike a hollow rubber ball covered with felt
+            over or around a net and into the opponent's court. The object of
+            the game is to manoeuvre the ball in such a way that the opponent is
+            not able to play a valid return. The player who is unable to return
+            the ball validly will not gain a point, while the opposite player
+            will.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="soccer"
+      tabindex="-1"
+      aria-labelledby="Soccer"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HP1Label">
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </h5>
+          </div>
+          <div class="modal-body">
+            <img
+              src="https://activeforlife.com/content/uploads/2018/07/soccer-ball-2121x1414.jpg"
+              style="width: 18rem"
+              alt="Soccer"
+            /><br /><br />
+            &nbsp;Soccer is a team sport played with a spherical ball between
+            two teams of 11 players. It is played by approximately 250 million
+            players in over 200 countries and dependencies, making it the
+            world's most popular sport. The game is played on a rectangular
+            field called a pitch with a goal at each end. The objective of the
+            game is to score more goals than the opposition by moving the ball
+            beyond the goal line into the opposing goal, usually within a time
+            frame of 90 or more minutes.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="Cricket"
+      tabindex="-1"
+      aria-labelledby="Cricket"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HP1Label">
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </h5>
+          </div>
+          <div class="modal-body">
+            <img
+              src="https://media.istockphoto.com/photos/leather-cricket-ball-resting-on-a-cricket-bat-placed-on-green-grass-picture-id1256618106?k=20&m=1256618106&s=170667a&w=0&h=yi5XDWO10lnSLwjG_r2CbAYwNCGt7D1Pf3XArYVHKKA="
+              style="width: 18rem"
+              alt="Cricket"
+            /><br /><br />
+            &nbsp;Cricket is played with a bat and ball and involves two
+            competing sides (teams) of 11 players. As there are 11 players on a
+            team and 2 of them must be the bowler and wicketkeeper, only 9 other
+            positions can be occupied at any one time.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="basketball"
+      tabindex="-1"
+      aria-labelledby="Cricket"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HP1Label">
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </h5>
+          </div>
+          <div class="modal-body">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fiG7mazKTfIruTehelV_rm79xY6bSXVR8Q&usqp=CAU"
+              style="width: 18rem"
+              alt="Cricket"
+            /><br /><br />
+            &nbsp;Basketball is a game played between two teams of five players
+            each on a rectangular court, usually indoors. Each team tries to
+            score by tossing the ball through the opponent's goal, an elevated
+            horizontal hoop and net called a basket.
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/modernizr.min.js"></script>
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/861898755b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

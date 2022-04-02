@@ -12,6 +12,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
       rel="stylesheet"
@@ -27,7 +33,8 @@
     </div>
 
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-100"
+      class="navbar navbar-expand-lg navbar-dark sticky-top w-100"
+      style="background: #343a40"
       aria-label="First navbar example"
     >
       <div class="container-fluid">
@@ -54,33 +61,24 @@
         <div class="navbar-collapse collapse" id="navbarsExample01">
           <ul class="navbar-nav me-auto mb-2">
             <li class="nav-item">
-              <a
-                class="nav-link link-light"
-                aria-current="page"
-                href="index.html#hero"
+              <a class="nav-link link-light" aria-current="page" href="#hero"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#about">About</a>
+              <a class="nav-link link-light" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#videos"
-                >Videos
-              </a>
+              <a class="nav-link link-light" href="#videos">Videos </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#work">Work </a>
+              <a class="nav-link link-light" href="#work">Work </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#writing"
-                >Writing
-              </a>
+              <a class="nav-link link-light" href="#writing">Writing </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-light" href="index.html#contact"
-                >Contact
-              </a>
+              <a class="nav-link link-light" href="#contact">Contact </a>
             </li>
             <li class="nav-item">
               <a class="nav-link link-light" href="/connect.html">Connect</a>
@@ -88,10 +86,19 @@
             <li class="nav-item">
               <a class="nav-link link-light" href="/blog.html">Blog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/books.html">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="/sports.html">Sports</a>
+            </li>
           </ul>
         </div>
       </div>
-    </nav>  
+    </nav>
     <main>
       <section class="hero" id="hero">
         <img
@@ -229,43 +236,95 @@
         </a>
       </section>
     </main>
-    <footer
-      id="contact"
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-    >
-      <p class="col-md-4 mb-0 text-muted">
-        <span class="year mx-4"></span> TalkativeDiv
-      </p>
+    <section id="contact">
+      <div class="container">
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+          <div class="col">
+            <a
+              href="/"
+              class="d-flex align-items-center mb-3 link-dark text-decoration-none"
+            >
+              <img
+                src="https://github.com/TalkativeDiv/TalkativeFoods/raw/master/images/logo.png"
+                alt="Logo"
+                class="w-25"
+              />
+              <h2>&nbsp;TalkativeDiv</h2>
+            </a>
+          </div>
 
-      <a
-        href="/"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-      >
-        <img
-          src="https://github.com/TalkativeDiv/TalkativeFoods/raw/master/images/logo.png"
-          alt="My Logo"
-          style="width: 10%"
-        />
-      </a>
+          <div class="col"></div>
 
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item">
-          <a href="#hero" class="nav-link px-2 text-muted">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Videos</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Writing</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-muted">Contact</a>
-        </li>
-      </ul>
-    </footer>
+          <div class="col">
+            <h5>Social</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a
+                  href="https://github.com/TalkativeDiv"
+                  class="nav-link p-0 text-muted"
+                  >Github</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://abhirath.net/" class="nav-link p-0 text-muted"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://talkativeblog.hashnode.dev/"
+                  class="nav-link p-0 text-muted"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="https://app.daily.dev/TalkativeDiv"
+                  class="nav-link p-0 text-muted"
+                  >DailyDev</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a
+                  href="mailto:hello@abhirath.net"
+                  class="nav-link p-0 text-muted"
+                  >Email</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h5>Home</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#about" class="nav-link p-0 text-muted"> About</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="index.html#videos" class="nav-link p-0 text-muted">
+                  Videos</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="index.html#work" class="nav-link p-0 text-muted">
+                  Work</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="index.html#writing" class="nav-link p-0 text-muted">
+                  Writing
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="index.html#contact" class="nav-link p-0 text-muted"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
     <script>
       window.addEventListener("load", function () {
         const preloader = document.querySelector(".preloader");
